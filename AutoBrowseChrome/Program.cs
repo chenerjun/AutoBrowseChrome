@@ -52,7 +52,7 @@ namespace AutoBrowseChrome
 
             while (true)
             {
-                Thread.Sleep( proxytime * 100);
+                Thread.Sleep( proxytime * 1000);
                 {
                     // random get a proxy server IP and port#     proxy_ip_# like "38.64.129.242:8080";
                     PROXY = allproxy[rnd1.Next(allproxy.Length)];
