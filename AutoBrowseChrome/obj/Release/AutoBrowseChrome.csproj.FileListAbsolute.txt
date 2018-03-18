@@ -1,0 +1,7 @@
+D:\Users\erjun\Documents\Test\AutoBrowseChrome\AutoBrowseChrome\bin\Release\AutoBrowseChrome.exe.config
+D:\Users\erjun\Documents\Test\AutoBrowseChrome\AutoBrowseChrome\bin\Release\AutoBrowseChrome.exe
+D:\Users\erjun\Documents\Test\AutoBrowseChrome\AutoBrowseChrome\bin\Release\AutoBrowseChrome.pdb
+D:\Users\erjun\Documents\Test\AutoBrowseChrome\AutoBrowseChrome\bin\Release\WebDriver.dll
+D:\Users\erjun\Documents\Test\AutoBrowseChrome\AutoBrowseChrome\bin\Release\WebDriver.xml
+D:\Users\erjun\Documents\Test\AutoBrowseChrome\AutoBrowseChrome\obj\Release\AutoBrowseChrome.exe
+D:\Users\erjun\Documents\Test\AutoBrowseChrome\AutoBrowseChrome\obj\Release\AutoBrowseChrome.pdb
