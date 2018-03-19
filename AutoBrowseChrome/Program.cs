@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Remote;
+﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Support.UI;
+using System;
+using System.Drawing;
 using System.IO;
 using System.Threading;
-using System.Drawing;
 
 namespace AutoBrowseChrome
 {

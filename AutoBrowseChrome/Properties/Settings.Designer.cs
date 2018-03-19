@@ -12,7 +12,7 @@ namespace AutoBrowseChrome.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.0.1.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.6.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -25,7 +25,7 @@ namespace AutoBrowseChrome.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("page.txt")]
+        [global::System.Configuration.DefaultSettingValueAttribute("../page.txt")]
         public string page {
             get {
                 return ((string)(this["page"]));
@@ -37,7 +37,7 @@ namespace AutoBrowseChrome.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("pcategories.txt")]
+        [global::System.Configuration.DefaultSettingValueAttribute("../pcategories.txt")]
         public string cate {
             get {
                 return ((string)(this["cate"]));
@@ -73,7 +73,7 @@ namespace AutoBrowseChrome.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("proxies.txt")]
+        [global::System.Configuration.DefaultSettingValueAttribute("../proxies.txt")]
         public string proxies {
             get {
                 return ((string)(this["proxies"]));
@@ -133,7 +133,7 @@ namespace AutoBrowseChrome.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("psearch.txt")]
+        [global::System.Configuration.DefaultSettingValueAttribute("../psearch.txt")]
         public string psearch {
             get {
                 return ((string)(this["psearch"]));
