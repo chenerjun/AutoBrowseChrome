@@ -5,3 +5,6 @@ D:\Users\erjun\Documents\Test\AutoBrowseChrome\AutoBrowseChrome\bin\Release\WebD
 D:\Users\erjun\Documents\Test\AutoBrowseChrome\AutoBrowseChrome\bin\Release\WebDriver.xml
 D:\Users\erjun\Documents\Test\AutoBrowseChrome\AutoBrowseChrome\obj\Release\AutoBrowseChrome.exe
 D:\Users\erjun\Documents\Test\AutoBrowseChrome\AutoBrowseChrome\obj\Release\AutoBrowseChrome.pdb
+D:\Users\erjun\Documents\Test\AutoBrowseChrome\AutoBrowseChrome\obj\Release\AutoBrowseChrome.csprojResolveAssemblyReference.cache
+D:\Users\erjun\Documents\Test\AutoBrowseChrome\AutoBrowseChrome\obj\Release\AutoBrowseChrome.csproj.CoreCompileInputs.cache
+D:\Users\erjun\Documents\Test\AutoBrowseChrome\AutoBrowseChrome\obj\Release\AutoBrowseChrome.csproj.CopyComplete
