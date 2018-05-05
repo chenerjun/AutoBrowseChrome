@@ -57,7 +57,7 @@ namespace AutoBrowseChrome
                     options.Proxy = proxy;
                     
 
-                    //each proxy browe 2 categories and 3 webpages 1 search
+                    //each proxy browe 2 categories and 6 webpages 2 search
 
                     // look at a category 
                     {
@@ -90,13 +90,43 @@ namespace AutoBrowseChrome
                         driver.Close();
                     }
 
-                    // look at a category 
+                    // look at a page 
                     Thread.Sleep(1000 * Properties.Settings.Default.Iterval2); // and then back to a category
                     {
-                        thisCate = allCate[rnd1.Next(allCate.Length)];
+                        thisPage = allweb[rnd1.Next(allweb.Length)];
                         ChromeDriver driver = new ChromeDriver(path, options, timespan);
                         driver.Manage().Window.Size = new Size(300, 200);
-                        driver.Navigate().GoToUrl(thisCate);//   Category 如果要扫目录就改成 thisCate
+                        driver.Navigate().GoToUrl(thisPage); //   Page 如果要扫目录就改成 thisCate
+                        driver.Close();
+                    }
+
+                    // open a page
+                    Thread.Sleep(1000 * Properties.Settings.Default.Iterval1); // then look at a page
+                    {
+                        thisPage = allweb[rnd1.Next(allweb.Length)];
+                        ChromeDriver driver = new ChromeDriver(path, options, timespan);
+                        driver.Manage().Window.Size = new Size(300, 200);
+                        driver.Navigate().GoToUrl(thisPage); //   Page 如果要扫目录就改成 thisCate
+                        driver.Close();
+                    }
+
+                    // look at a category 
+                    {
+                        //thisCate = allCate[rnd1.Next(allCate.Length)];
+                        thisPage = allweb[rnd1.Next(allCate.Length)];
+                        ChromeDriver driver = new ChromeDriver(path, options, timespan);
+                        driver.Manage().Window.Size = new Size(300, 200);
+                        driver.Navigate().GoToUrl(thisCate);  //   Category 如果要扫目录就改成 thisCate
+                        driver.Close();
+                    }
+
+                    ///  open a search
+                    Thread.Sleep(1000 * Properties.Settings.Default.Iterval1); // then look at a page
+                    {
+                        thissearch = allsearch[rnd1.Next(allsearch.Length)];
+                        ChromeDriver driver = new ChromeDriver(path, options, timespan);
+                        driver.Manage().Window.Size = new Size(300, 200);
+                        driver.Navigate().GoToUrl(thissearch); //   Search  如果要扫目录就改成 thisCate
                         driver.Close();
                     }
 
@@ -120,6 +150,16 @@ namespace AutoBrowseChrome
                         ChromeDriver driver = new ChromeDriver(path, options, timespan);
                         driver.Manage().Window.Size = new Size(300, 200);
                         driver.Navigate().GoToUrl(thisPage);//   Page 如果要扫目录就改成 thisCate
+                        driver.Close();
+                    }
+
+                    // open a page
+                    Thread.Sleep(1000 * Properties.Settings.Default.Iterval1); // then look at a page
+                    {
+                        thisPage = allweb[rnd1.Next(allweb.Length)];
+                        ChromeDriver driver = new ChromeDriver(path, options, timespan);
+                        driver.Manage().Window.Size = new Size(300, 200);
+                        driver.Navigate().GoToUrl(thisPage); //   Page 如果要扫目录就改成 thisCate
                         driver.Close();
                     }
                 }
